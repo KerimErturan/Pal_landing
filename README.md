@@ -1,4 +1,4 @@
-Landing Page for ChatBout
+Landing Page for ChatBot
 
 Needs content listing chatbout features etc.
 
