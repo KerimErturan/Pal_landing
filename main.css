@@ -154,6 +154,7 @@
 
 .work__cards {
   display: flex;
+  justify-content: center;
 }
 
 .card {
@@ -170,7 +171,7 @@
 
 .card-text {
   font-size: 2em;
-  
+
 }
 
 .card-image {
