@@ -170,8 +170,7 @@
 }
 
 .card-text {
-  font-size: 2em;
-
+  font-size: 1.5em;
 }
 
 .card-image {
@@ -185,9 +184,9 @@
   text-align: center;
 }
 
-.rectangle{
+.rectangle {
   display: inline-block;
   width: 30%;
-  height:100%;
-  border:5px solid black;
+  height: 100%;
+  border: 5px solid black;
 }
