@@ -16,7 +16,7 @@
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20vh;
+  padding-top: 8vh;
   z-index: 1000;
 }
 
@@ -142,6 +142,7 @@
   height: 100vh;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 100px;
 }
 
 .work__header {
@@ -189,4 +190,8 @@
   width: 30%;
   height: 100%;
   border: 5px solid black;
+}
+
+.end {
+  height: 20vh;
 }
