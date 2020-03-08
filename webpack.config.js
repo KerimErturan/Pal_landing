@@ -34,10 +34,9 @@ module.exports = {
     ]
   },
   devServer: {
-    port: 3000,
-    historyApiFallback: {
-      index: "dist/index.html"
-    }
+    hot: true,
+    contentBase: path.resolve(__dirname, "dist"),
+    publicPath: "/dist"
   },
   plugins: [
     new HtmlWebpackPlugin({
