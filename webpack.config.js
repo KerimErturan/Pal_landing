@@ -39,5 +39,10 @@ module.exports = {
       index: "dist/index.html"
     }
   },
-  plugins: [new HtmlWebpackPlugin()]
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+      filename: "./dist/index.html"
+    })
+  ]
 };
