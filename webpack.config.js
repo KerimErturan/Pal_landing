@@ -1,4 +1,5 @@
 var path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./main.js",
@@ -37,5 +38,6 @@ module.exports = {
     historyApiFallback: {
       index: "dist/index.html"
     }
-  }
+  },
+  plugins: [new HtmlWebpackPlugin()]
 };
