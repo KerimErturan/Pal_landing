@@ -34,14 +34,14 @@ module.exports = {
     ]
   },
   devServer: {
-    hot: true,
+    hot: false,
     contentBase: path.resolve(__dirname, "dist"),
     publicPath: "/dist"
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html"
+      template: path.resolve(__dirname, "./public", "index.html"),
+      filename: "index.html"
     })
   ]
 };
